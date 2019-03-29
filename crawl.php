@@ -181,6 +181,6 @@ function followLinks($url) {
 
 }
 
-$startUrl = "http://www.naver.com";
+$startUrl = "https://www.daum.net";
 followLinks($startUrl);
 ?>
