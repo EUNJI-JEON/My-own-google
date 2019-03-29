@@ -166,3 +166,84 @@ html, body{
   font-weight: bold;
   color: #1a73e8;
 }
+
+.mainResulstSection {
+  flex:1;
+}
+
+.mainResultsSection .resultsCount {
+
+  font-size: 13px;
+  color: #808080;
+  margin-left: 150px;
+
+}
+
+.mainResulstSection .siteResults {
+  margin-left: 150px;
+
+}
+
+.resultsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+
+}
+
+.resultsContainer .title{
+  margin: 0;
+}
+
+.resultsContainer .title a{
+  color: #1a0dab;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.resultsContainer .title a:hover{
+  text-decoration: underline;
+}
+
+.resultsContainer .url{
+  color:#006621;
+  font-size: 14px;
+}
+
+.resultsContainer .description {
+  font-size: 12px;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.pageButtons {
+  dispaly: flex;
+
+}
+
+.pageNumberContainer img{
+  height: 37px;
+}
+
+
+.pageNumberContainer,
+.pageNumberContainer a {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.pageNumber {
+  color: #000;
+  font-size: 13px;
+}
+
+a .pageNumber {
+  color: #4285f4;
+}
