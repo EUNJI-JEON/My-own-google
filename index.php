@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Welcome to Doodle</title>
+	<meta charset="UTF-8">
 
 	<meta name="description" content="Search the web for sites and images.">
 	<meta name="keywords" content="Search engine, doodle, websites">
